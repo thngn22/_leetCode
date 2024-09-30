@@ -15,7 +15,7 @@ function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
   this.next = next === undefined ? null : next;
 }
-var mergeTwoLists = function (list1, list2) {
+const mergeTwoLists = function (list1, list2) {
   let combined = new ListNode(0);
   let temp = combined;
 
@@ -45,15 +45,15 @@ var mergeTwoLists = function (list1, list2) {
   return temp.next;
 };
 
-const n1 = new ListNode(1);
-const n2 = new ListNode(2);
-const n3 = new ListNode(4);
+let n1 = new ListNode(1);
+let n2 = new ListNode(2);
+let n3 = new ListNode(4);
 n1.next = n2;
 n2.next = n3;
 
-const n4 = new ListNode(1);
-const n5 = new ListNode(3);
-const n6 = new ListNode(4);
+let n4 = new ListNode(1);
+let n5 = new ListNode(3);
+let n6 = new ListNode(4);
 n4.next = n5;
 n5.next = n6;
 
