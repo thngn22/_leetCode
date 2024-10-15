@@ -21,7 +21,7 @@ function TreeNode(val, left, right) {
  * @return {boolean}
  *
  * sử dụng duyệt DFS, nhưng có vẻ chỉ cần so sánh theo từng node thay vì phải vào sâu như vậy
- * ==> nên dùng BFS thì hơn
+ * ==> nên dùng BFS (Breadth First Search) thì hơn
  */
 const isSameTree = function (p, q) {
     if (p === null && q === null) return true;

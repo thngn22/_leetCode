@@ -20,7 +20,7 @@ function TreeNode(val, left, right) {
  * @param {TreeNode} q
  * @return {boolean}
  *
- * sử dụng duyệt BFS và queue
+ * sử dụng duyệt BFS (Breadth First Search) và queue
  */
 const isSameTree = function (p, q) {
     const queue = [[p, q]];
